@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1>Hi, <span class="white">moghwan</span> here</h1>
+    <h1>Hi, <span class="accent">moghwan</span> here</h1>
   </div>
 </template>
 

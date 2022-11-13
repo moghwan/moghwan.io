@@ -9,9 +9,9 @@
 }
 
 a,
-.white {
+.accent {
   text-decoration: none;
-  color: var(--vt-c-white);
+  color: var(--color-accent);
   transition: 0.4s;
 }
 
