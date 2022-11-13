@@ -22,7 +22,7 @@ const router = createRouter({
     {
       path: '/gh',
       name: 'github',
-      redirect: to => { window.location.href = "https://github.com/moghwan/" },
+      redirect: to => { window.location.href = "https://github.com/moghwan" },
     },
     {
       path: '/tw',
@@ -32,7 +32,7 @@ const router = createRouter({
     {
       path: '/li',
       name: 'linkedin',
-      redirect: to => { window.location.href = "https://www.linkedin.com/in/moghwan/" },
+      redirect: to => { window.location.href = "https://www.linkedin.com/in/moghwan" },
     },
     {
       path: '/so',
@@ -42,7 +42,7 @@ const router = createRouter({
     {
       path: '/da',
       name: 'deviantart',
-      redirect: to => { window.location.href = "https://c-mar1.deviantart.com/" },
+      redirect: to => { window.location.href = "https://c-mar1.deviantart.com" },
     },
     {
       path: '/us',
@@ -52,7 +52,12 @@ const router = createRouter({
     {
       path: '/ig',
       name: 'instagram',
-      redirect: to => { window.location.href = "https://instagram.com/_moghwan/" },
+      redirect: to => { window.location.href = "https://instagram.com/_moghwan" },
+    },
+    {
+      path: '/b',
+      name: 'blog',
+      redirect: to => { window.location.href = "https://blog.moghwan.me" },
     },
   ]
 })

@@ -46,38 +46,13 @@ h3 {
   }
 
   i {
-    top: calc(50% - 25px);
-    left: -26px;
+    left: 0px;
     position: absolute;
     border: 1px solid var(--color-border);
     background: var(--color-background);
     border-radius: 8px;
     width: 50px;
     height: 50px;
-  }
-
-  .item:before {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
   }
 }
 </style>

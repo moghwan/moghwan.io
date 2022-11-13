@@ -44,7 +44,7 @@ import CommunityIcon from './icons/IconCommunity.vue'
     </template>
     <template #heading>Where</template>
 
-    <RouterLink to="/s">
+    <RouterLink :to="{ name: 'socials' }">
       Let's connect
     </RouterLink>
   </WelcomeItem>

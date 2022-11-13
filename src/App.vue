@@ -7,17 +7,10 @@ import Home from './components/Home.vue'
   <header>
     <div class="wrapper">
       <Home/>
-
       <nav>
-        <RouterLink to="/">
-          Home
-        </RouterLink>
-        <RouterLink to="/u">
-          Uses
-        </RouterLink>
-        <a href="https://blog.moghwan.me" target="_blank">
-          Blog
-        </a>
+        <RouterLink to="/">Home</RouterLink>
+<!--        <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>-->
+        <RouterLink target='_blank' :to="{ name: 'blog' }">Blog</RouterLink>
       </nav>
     </div>
   </header>
