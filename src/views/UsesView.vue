@@ -1,8 +1,19 @@
+<script setup>
+import WelcomeItem from '../components/WelcomeItem.vue'
+import ToolingIcon from '../components/icons/IconTooling.vue'
+</script>
+
 <template>
-  <div class="uses">
-    <h1>Uses TBD</h1>
-    <!--          import ToolingIcon from './icons/IconTooling.vue'-->
-  </div>
+  <WelcomeItem>
+    <template #icon>
+      <ToolingIcon />
+    </template>
+    <template #heading>Uses TBD</template>
+
+    <div class="uses">
+      
+    </div>
+  </WelcomeItem>
 </template>
 
 <style>

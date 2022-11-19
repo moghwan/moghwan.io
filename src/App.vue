@@ -5,11 +5,13 @@ import Home from './components/Home.vue'
 
 <template>
   <header>
+    <div class="logo-wrapper">
+    </div>
     <div class="wrapper">
       <Home/>
       <nav>
         <RouterLink to="/">Home</RouterLink>
-<!--        <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>-->
+        <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>
         <RouterLink target='_blank' :to="{ name: 'blog' }">Blog</RouterLink>
       </nav>
     </div>
@@ -74,5 +76,16 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+}
+
+.logo-wrapper svg {
+  width: 100%;
+  height: auto;
+  display: initial;
+}
+
+.logo-wrapper svg path,
+.logo-wrapper svg text {
+  
 }
 </style>
