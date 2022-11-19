@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import UsesView from '../views/UsesView.vue'
 import SocialsView from '../views/SocialsView.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -61,6 +62,10 @@ const router = createRouter({
       path: '/b',
       name: 'blog',
       redirect: to => { window.location.href = "https://blog.moghwan.me" },
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      component: NotFoundView
     },
   ]
 })
