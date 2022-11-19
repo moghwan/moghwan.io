@@ -9,7 +9,7 @@ import Home from './components/Home.vue'
       <Home/>
       <nav>
         <RouterLink to="/">Home</RouterLink>
-<!--        <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>-->
+        <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>
         <RouterLink target='_blank' :to="{ name: 'blog' }">Blog</RouterLink>
       </nav>
     </div>
@@ -42,7 +42,6 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  /*border-left: 1px solid var(--color-border);*/
 }
 
 nav a:first-of-type {
@@ -54,10 +53,6 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {
