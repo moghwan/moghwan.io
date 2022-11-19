@@ -5,8 +5,6 @@ import Home from './components/Home.vue'
 
 <template>
   <header>
-    <div class="logo-wrapper">
-    </div>
     <div class="wrapper">
       <Home/>
       <nav>
@@ -44,7 +42,6 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  /*border-left: 1px solid var(--color-border);*/
 }
 
 nav a:first-of-type {
@@ -56,10 +53,6 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {
@@ -76,16 +69,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
-
-.logo-wrapper svg {
-  width: 100%;
-  height: auto;
-  display: initial;
-}
-
-.logo-wrapper svg path,
-.logo-wrapper svg text {
-  
 }
 </style>
