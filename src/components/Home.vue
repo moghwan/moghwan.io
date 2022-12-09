@@ -1,6 +1,13 @@
+<script setup>
+import DarkmodeSwitcher from './DarkmodeSwitcher.vue'
+</script>
+
 <template>
   <div class="greetings">
-    <h1>Hi, <span class="accent">moghwan</span> here</h1>
+    <h1>
+      Hi, <span class="accent">moghwan</span> here
+      <DarkmodeSwitcher class="darkmode-switcher"/>
+    </h1>
   </div>
 </template>
 

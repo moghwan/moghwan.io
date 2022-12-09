@@ -9,7 +9,6 @@ import CommunityIcon from './icons/IconCommunity.vue'
   <WelcomeItem>
     <template #icon>
       <InfoIcon />
-      <DocumentationIcon />
     </template>
     <template #heading>Who</template>
 
