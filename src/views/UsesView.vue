@@ -10,7 +10,7 @@ import ToolingIcon from '../components/icons/IconTooling.vue'
     </template>
     <template #heading>
       Uses
-      (or check the <RouterLink target='_blank' :to="{ name: 'uses' }" class="external-link external-link-right non-tldr-link">!tl;dr</RouterLink> version)
+      (or check the <RouterLink target='_blank' :to="{ name: 'uses' }" class="external-link">!tl;dr</RouterLink> version)
     </template>
 
     <div class="uses">
@@ -49,5 +49,4 @@ import ToolingIcon from '../components/icons/IconTooling.vue'
 
 <style scoped>
 .uses { margin-top: 1rem; }
-.non-tldr-link { background-position-y: .2rem; }
 </style>
