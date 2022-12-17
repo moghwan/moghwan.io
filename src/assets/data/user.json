@@ -7,7 +7,7 @@
           "hasSubList": false,
           "content": "Manjaro i3 community [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
         },
-        "DevTools": {
+        "Dev Tools": {
           "hasSubList": true,
           "content": {
             "item1": "PhpStorm & Laradock (LAMP)",
@@ -32,7 +32,7 @@
           "hasSubList": false,
           "content": "Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]"
         },
-        "NotesTaking": {
+        "Notes Taking": {
           "hasSubList": false,
           "content": "TickTick &amp; Notion.so"
         },
