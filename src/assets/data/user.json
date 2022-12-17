@@ -1,0 +1,67 @@
+{
+  "uses": {
+    "osoftware": {
+      "title": "OSoftware",
+      "list": {
+        "OS": {
+          "hasSubList": false,
+          "content": "Manjaro i3 community [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
+        },
+        "DevTools": {
+          "hasSubList": true,
+          "content": {
+            "item1": "PhpStorm & Laradock (LAMP)",
+            "item2": "WebStorm & nvm",
+            "item3": "Vim to edit config files"
+          }
+        },
+        "Stacks": {
+          "hasSubList": true,
+          "content": {
+            "item1": "Laravel / Inertia / Vue 2 / TailWind",
+            "item2": "Laravel / Livewire / Bootstrap 5",
+            "item3": "NuxtJS / TailWind",
+            "item4": "ionic and Kotlin"
+          }
+        },
+        "Deployment": {
+          "hasSubList": false,
+          "content": "Vercel / Cloudways / OVH (VPS) / Fastlane"
+        },
+        "Terminal": {
+          "hasSubList": false,
+          "content": "Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]"
+        },
+        "NotesTaking": {
+          "hasSubList": false,
+          "content": "TickTick &amp; Notion.so"
+        },
+        "Browsers": {
+          "hasSubList": false,
+          "content": "Firefox (DE for Desktop, Nightly for mobile)"
+        }
+      }
+    },
+    "hardware": {
+      "title" : "Hardware",
+      "list": {
+        "Laptop": {
+          "hasSubList": false,
+          "content": "HP 450 G8 15\""
+        },
+        "Keyboards": {
+          "hasSubList": false,
+          "content": "Keychron K6, reds with <a class=\"external-link\" href=\"https://www.reddit.com/r/evangelion/comments/vi5we9\">custom keycaps</a> | K7 unmodified with browns"
+        },
+        "Phone": {
+          "hasSubList": false,
+          "content": "<a class=\"external-link\" href=\"https://dbrand.com/shop/special-edition/something\">Something</a> like Pixel 6 Pro"
+        },
+        "Wearables": {
+          "hasSubList": false,
+          "content": "Mi Band 6 | Wired Type-C headphones"
+        }
+      }
+    }
+  }
+}

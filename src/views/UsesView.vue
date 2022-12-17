@@ -1,6 +1,9 @@
 <script setup>
 import WelcomeItem from '../components/WelcomeItem.vue'
 import ToolingIcon from '../components/icons/IconTooling.vue'
+import { uses } from '../assets/data/user.json'
+
+const uses_ = uses;
 </script>
 
 <template>
@@ -10,43 +13,30 @@ import ToolingIcon from '../components/icons/IconTooling.vue'
     </template>
     <template #heading>
       Uses
-      (or check the <RouterLink target='_blank' :to="{ name: 'uses' }" class="external-link">!tl;dr</RouterLink> version)
     </template>
 
     <div class="uses">
-      <h3>OSoftware</h3>
-      <ul>
-        <li>OS: Manjaro i3 community [<a href="https://github.com/moghwan/dotfiles">dotfiles</a>]</li>
-        <li>Dev tools:<ul>
-          <li>PhpStorm &amp; Laradock (LAMP)</li>
-          <li>WebStorm &amp; nvm</li>
-          <li>Vim to edit config files</li>
+      <p v-for="(use, key) in uses_" :key="use.id">
+        <h3>{{ use.title }}</h3>
+        <ul>
+          <li v-for="(item, keyy) in use.list" :key="item.id">
+            <span class="bold" v-html="keyy"></span>:
+            <span v-html="!item.hasSubList ? item.content : null" v-if="!item.hasSubList"></span>
+            <span v-if="item.hasSubList">
+              <ul>
+                <li v-for="(subItem, keyyy) in item.content" :key="subItem.id">
+                  <span v-html="subItem"></span>
+                </li>
+              </ul>
+            </span>
+          </li>
         </ul>
-        </li>
-        <li>Stacks:<ul>
-          <li>Laravel / Inertia / Vue 2 / TailWind</li>
-          <li>Laravel / Livewire / Bootstrap 5</li>
-          <li>NuxtJS / TailWind</li>
-          <li>ionic and Kotlin</li>
-        </ul>
-        </li>
-        <li>Deployment: Vercel / Cloudways / OVH (VPS) / Fastlane</li>
-        <li>Terminal: Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]</li>
-        <li>Note-taking: TickTick &amp; Notion.so</li>
-        <li>Browser: Firefox (DE for Desktop, Nightly for mobile)</li>
-      </ul>
-      <h3>Hardware</h3>
-      <ul>
-        <li>Laptop: HP 450 G8</li>
-        <li>Keyboard: Keychron K6, reds with <a href="https://www.reddit.com/r/evangelion/comments/vi5we9">custom keycaps</a></li>
-        <li>Phone: <a href="https://dbrand.com/shop/special-edition/something">Something</a> like Pixel 6 Pro</li>
-        <li>Wearable: miband 6</li>
-      </ul>
-
+      </p>
     </div>
   </WelcomeItem>
 </template>
 
 <style scoped>
 .uses { margin-top: 1rem; }
+.bold { font-weight: bold }
 </style>
