@@ -10,7 +10,7 @@ import Home from './components/Home.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>
-        <RouterLink target='_blank' :to="{ name: 'blog' }">Blog</RouterLink>
+        <RouterLink target='_blank' :to="{ name: 'blog' }" class="external-link">Blog</RouterLink>
       </nav>
     </div>
   </header>
@@ -18,7 +18,7 @@ import Home from './components/Home.vue'
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -32,20 +32,21 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  color: var(--color-accent-2);
 }
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  margin: 0 1rem;
+  color: var(--color-text);
 }
 
 nav a:first-of-type {
   border: 0;
+}
+
+a.external-link {
+  border-bottom: 1px dashed;
 }
 
 @media (min-width: 1024px) {

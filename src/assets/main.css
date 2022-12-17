@@ -15,12 +15,6 @@ a,
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: rgba(136, 138, 137, 0.2);
-  }
-}
-
 @media (min-width: 1024px) {
   body {
     display: flex;

@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'uses',
       component: UsesView
     },
+    // {
+    //   path: '/bu',
+    //   name: 'blog uses',
+    //   redirect: to => { window.location.href = "https://github.com/moghwan" },
+    // },
     {
       path: '/s',
       name: 'socials',
