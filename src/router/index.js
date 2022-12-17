@@ -49,6 +49,11 @@ const router = createRouter({
       redirect: to => { window.location.href = "https://stackoverflow.com/users/2543690/moghwan" },
     },
     {
+      path: '/sp',
+      name: 'spotify',
+      redirect: to => { window.location.href = "https://stats.fm/moghwan" },
+    },
+    {
       path: '/da',
       name: 'deviantart',
       redirect: to => { window.location.href = "https://c-mar1.deviantart.com" },
