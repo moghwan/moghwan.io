@@ -13,18 +13,19 @@ const uses_ = uses;
     </template>
     <template #heading>
       Uses
+<!--      (or check the <RouterLink target='_blank' :to="{ name: 'uses' }" class="external-link">!tl;dr</RouterLink> version)-->
     </template>
 
     <div class="uses">
-      <p v-for="(use, key) in uses_" :key="use.id">
+      <p v-for="(use) in uses_" :key="use.id">
         <h3>{{ use.title }}</h3>
         <ul>
-          <li v-for="(item, keyy) in use.list" :key="item.id">
-            <span class="bold" v-html="keyy"></span>:
+          <li v-for="(item, name) in use.list" :key="item.id">
+            <span class="bold" v-html="name"></span>:
             <span v-html="!item.hasSubList ? item.content : null" v-if="!item.hasSubList"></span>
             <span v-if="item.hasSubList">
               <ul>
-                <li v-for="(subItem, keyyy) in item.content" :key="subItem.id">
+                <li v-for="(subItem) in item.content" :key="subItem.id">
                   <span v-html="subItem"></span>
                 </li>
               </ul>
