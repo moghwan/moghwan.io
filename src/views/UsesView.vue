@@ -18,7 +18,11 @@ const uses_ = uses;
     </template>
 
     <div class="uses">
-      <section-item v-for="(use) in uses_" :key="use.id" :useItem="use"/>
+      <section-item 
+          v-for="(use) in uses_" 
+          :key="use.id" 
+          :useItem="use"
+      />
     </div>
   </WelcomeItem>
 </template>
