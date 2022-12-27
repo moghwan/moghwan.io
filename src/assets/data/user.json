@@ -1,63 +1,99 @@
 {
   "uses": {
     "osoftware": {
-      "title": "OSoftware",
+      "name": "OS/oftware",
       "list": {
-        "OS": {
+        "os": {
+          "name": "OS",
           "hasSubList": false,
           "content": "Manjaro i3 community [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
         },
-        "Dev Tools": {
+        "devTools": {
+          "name": "Dev Tools",
           "hasSubList": true,
-          "content": {
-            "item1": "PhpStorm & Laradock (LAMP)",
-            "item2": "WebStorm & nvm",
-            "item3": "Vim to edit config files"
+          "lost": {
+            "list": [
+              {
+                "hasSubList": false,
+                "content": "PhpStorm & Laradock (LAMP)"
+              },
+              {
+                "hasSubList": false,
+                "content": "WebStorm & nvm"
+              },
+              {
+                "hasSubList": false,
+                "content": "Vim to edit config files"
+              }
+            ]
           }
         },
-        "Stacks": {
+        "stacks": {
+          "name": "Stacks",
           "hasSubList": true,
-          "content": {
-            "item1": "Laravel / Inertia / Vue 2 / TailWind",
-            "item2": "Laravel / Livewire / Bootstrap 5",
-            "item3": "NuxtJS / TailWind",
-            "item4": "ionic and Kotlin"
+          "lost": {
+            "list": [
+              {
+                "hasSubList": false,
+                "content": "Laravel / Inertia / Vue 2 / TailWind"
+              },
+              {
+                "hasSubList": false,
+                "content": "Laravel / Livewire / Bootstrap 5"
+              },
+              {
+                "hasSubList": false,
+                "content": "NuxtJS / TailWind"
+              },
+              {
+                "hasSubList": false,
+                "content": "ionic and Kotlin"
+              }
+            ]
           }
         },
-        "Deployment": {
+        "deployment": {
+          "name": "Deployment",
           "hasSubList": false,
           "content": "Vercel / Cloudways / OVH (VPS) / Fastlane"
         },
-        "Terminal": {
+        "terminal": {
+          "name": "Terminal",
           "hasSubList": false,
           "content": "Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]"
         },
-        "Notes Taking": {
+        "notesTaking": {
+          "name": "Notes Taking",
           "hasSubList": false,
           "content": "TickTick &amp; Notion.so"
         },
-        "Browsers": {
+        "browsers": {
+          "name": "Browsers",
           "hasSubList": false,
           "content": "Firefox (DE for Desktop, Nightly for mobile)"
         }
       }
     },
     "hardware": {
-      "title" : "Hardware",
+      "name": "Hardware",
       "list": {
-        "Laptop": {
+        "laptop": {
+          "name": "Laptop",
           "hasSubList": false,
           "content": "HP 450 G8 15\""
         },
-        "Keyboards": {
+        "keyboards": {
+          "name": "Keyboards",
           "hasSubList": false,
-          "content": "Keychron K6, reds with <a class=\"external-link\" href=\"https://www.reddit.com/r/evangelion/comments/vi5we9\">custom keycaps</a> | K7 unmodified with browns"
+          "content": "Keychron K6, reds with <a class=\"external-link\" href=\"https://www.reddit.com/r/evangelion/comments/vi5we9\">custom keycaps</a> | K7, browns"
         },
-        "Phone": {
+        "phone": {
+          "name": "Phone",
           "hasSubList": false,
           "content": "<a class=\"external-link\" href=\"https://dbrand.com/shop/special-edition/something\">Something</a> like Pixel 6 Pro"
         },
-        "Wearables": {
+        "wearables": {
+          "name": "Wearables",
           "hasSubList": false,
           "content": "Mi Band 6 | Wired Type-C headphones"
         }
