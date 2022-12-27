@@ -22,7 +22,9 @@ const uses_ = uses;
           v-for="(use) in uses_" 
           :key="use.id" 
           :useItem="use"
-      />
+      >
+        <h3>{{ use.name }}</h3>
+      </section-item>
     </div>
   </WelcomeItem>
 </template>

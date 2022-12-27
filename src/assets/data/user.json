@@ -1,7 +1,7 @@
 {
   "uses": {
     "osoftware": {
-      "name": "OSoftware",
+      "name": "OS/oftware",
       "list": {
         "os": {
           "name": "OS",
@@ -11,49 +11,46 @@
         "devTools": {
           "name": "Dev Tools",
           "hasSubList": true,
-          "list": [
-            {
-              "name": "ll1",
-              "hasSubList": false,
-              "content": "PhpStorm & Laradock (LAMP)"
-            },
-            {
-              "name": "ll2",
-              "hasSubList": false,
-              "content": "WebStorm & nvm"
-            },
-            {
-              "name": "ll3",
-              "hasSubList": false,
-              "content": "Vim to edit config files"
-            }
-          ]
+          "lost": {
+            "list": [
+              {
+                "hasSubList": false,
+                "content": "PhpStorm & Laradock (LAMP)"
+              },
+              {
+                "hasSubList": false,
+                "content": "WebStorm & nvm"
+              },
+              {
+                "hasSubList": false,
+                "content": "Vim to edit config files"
+              }
+            ]
+          }
         },
         "stacks": {
           "name": "Stacks",
           "hasSubList": true,
-          "list": [
-            {
-              "name": "laravue",
-              "hasSubList": false,
-              "content": "Laravel / Inertia / Vue 2 / TailWind"
-            },
-            {
-              "name": "laralive",
-              "hasSubList": false,
-              "content": "Laravel / Livewire / Bootstrap 5"
-            },
-            {
-              "name": "nuxtwind",
-              "hasSubList": false,
-              "content": "NuxtJS / TailWind"
-            },
-            {
-              "name": "mobile",
-              "hasSubList": false,
-              "content": "ionic and Kotlin"
-            }
-          ]
+          "lost": {
+            "list": [
+              {
+                "hasSubList": false,
+                "content": "Laravel / Inertia / Vue 2 / TailWind"
+              },
+              {
+                "hasSubList": false,
+                "content": "Laravel / Livewire / Bootstrap 5"
+              },
+              {
+                "hasSubList": false,
+                "content": "NuxtJS / TailWind"
+              },
+              {
+                "hasSubList": false,
+                "content": "ionic and Kotlin"
+              }
+            ]
+          }
         },
         "deployment": {
           "name": "Deployment",
