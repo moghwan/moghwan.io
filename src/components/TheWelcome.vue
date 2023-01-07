@@ -12,7 +12,7 @@ import CommunityIcon from './icons/IconCommunity.vue'
     </template>
     <template #heading>Who</template>
 
-    <p>Just another dev, from Morocco and based in Casablanca.</p>
+    <p>Just another PHP dev from Morocco, based in Casablanca.</p>
     <p><a href="https://blog.moghwan.me/this-is-not-my-first-blog-post" class="external-link" target="_blank" rel="noopener">Read more</a>.</p>
   </WelcomeItem>
 
