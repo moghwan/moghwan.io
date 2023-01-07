@@ -6,7 +6,7 @@
         "os": {
           "name": "OS",
           "hasSubList": false,
-          "content": "Manjaro i3 community [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
+          "content": "Manjaro i3 community with i3status-rust  [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
         },
         "devTools": {
           "name": "Dev Tools",
@@ -60,17 +60,22 @@
         "terminal": {
           "name": "Terminal",
           "hasSubList": false,
-          "content": "Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]"
+          "content": "Konsole/iTerm & OhMyZsh [robbyrussell theme]"
         },
         "notesTaking": {
-          "name": "Notes Taking",
+          "name": "Notes & Projects management",
           "hasSubList": false,
-          "content": "TickTick &amp; Notion.so"
+          "content": "TickTick & Notion App"
         },
         "browsers": {
           "name": "Browsers",
           "hasSubList": false,
           "content": "Firefox (DE for Desktop, Nightly for mobile)"
+        },
+        "utilities": {
+          "name": "Utilities",
+          "hasSubList": false,
+          "content": "KDE Connect, Ranger"
         }
       }
     },
