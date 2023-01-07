@@ -1,6 +1,19 @@
 <script setup>
 import WelcomeItem from '../components/WelcomeItem.vue'
 import CommunityIcon from '../components/icons/IconCommunity.vue'
+
+const socials = [
+  'GitHub',
+  'Twitter',
+  'LinkedIn',
+  'Stackoverflow',
+  'Spotify',
+  'TvTime',
+  'DeviantArt',
+  'Unsplash',
+  'Instagram',
+];
+
 </script>
 
 <template>
@@ -12,15 +25,9 @@ import CommunityIcon from '../components/icons/IconCommunity.vue'
   
     <div class="socials">
       <ul>
-        <li><RouterLink target='_blank' :to="{ name: 'github' }">GitHub</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'twitter' }">Twitter</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'linkedin' }">LinkedIn</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'stackoverflow' }">Stackoverflow</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'spotify' }">Spotify</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'tvtime' }">TvTime</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'deviantart' }">DeviantArt</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'unsplash' }">Unsplash</RouterLink></li>
-        <li><RouterLink target='_blank' :to="{ name: 'instagram' }">Instagram</RouterLink></li>
+        <li v-for="social in socials">
+          <RouterLink target='_blank' :to="{ name: social.toLowerCase() }">{{ social }}</RouterLink>
+        </li>
       </ul>
     </div>
   </WelcomeItem>
