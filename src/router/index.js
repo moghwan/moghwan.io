@@ -54,6 +54,11 @@ const router = createRouter({
       redirect: to => { window.location.href = "https://stats.fm/moghwan" },
     },
     {
+      path: '/tv',
+      name: 'tvtime',
+      redirect: to => { window.location.href = "https://www.tvtime.com/user/40961985/profile" },
+    },
+    {
       path: '/da',
       name: 'deviantart',
       redirect: to => { window.location.href = "https://c-mar1.deviantart.com" },

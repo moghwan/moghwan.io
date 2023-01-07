@@ -1,4 +1,35 @@
 {
+  "wowawe": {
+    "who": {
+      "name": "Who",
+      "hasSubList": false,
+      "content": "Just another PHP dev from Morocco, based in Casablanca. <br> <a href='https://blog.moghwan.me/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
+    },
+    "what": {
+      "name": "What",
+      "hasSubList": true,
+      "content": "Most projects never see the light, either because I'm perfecting the MVP or just lazy to start one. Here are some:",
+      "list": [
+        {
+          "hasSubList": false,
+          "content": "<a href='https://bouayadapp-ma.moghwan.me/' class='external-link' target='_blank' rel='noopener'>Bouayadapp</a>: daily quotes with salate times (discontinued)."
+        },
+        {
+          "hasSubList": false,
+          "content": "<a href='https://bouayadapi.moghwan.me/' class='external-link' target='_blank' rel='noopener'>Bouayad API</a>: Unofficial API for the Bouayadapp (WIP)."
+        },
+        {
+          "hasSubList": false,
+          "content": "<a href='https://corona.moghwan.me/' class='external-link' target='_blank' rel='noopener'>Covid States</a>: Just another Unofficial Covid-19 Graph stats for Morocco."
+        }
+      ]
+    },
+    "where": {
+      "name": "Where",
+      "hasSubList": false,
+      "content": "Let us connect"
+    }
+  },
   "uses": {
     "osoftware": {
       "name": "OS/oftware",
@@ -6,7 +37,7 @@
         "os": {
           "name": "OS",
           "hasSubList": false,
-          "content": "Manjaro i3 community [<a class=\"external-link\" href=\"https://github.com/moghwan/dotfiles\">dotfiles</a>]"
+          "content": "Manjaro i3 community with i3status-rust  [<a class='external-link' target='_blank' href='https://github.com/moghwan/dotfiles'>dotfiles</a>]"
         },
         "devTools": {
           "name": "Dev Tools",
@@ -60,17 +91,22 @@
         "terminal": {
           "name": "Terminal",
           "hasSubList": false,
-          "content": "Konsole/iTerm &amp; OhMyZsh [robbyrussell theme]"
+          "content": "Konsole/iTerm & OhMyZsh [robbyrussell theme]"
         },
         "notesTaking": {
-          "name": "Notes Taking",
+          "name": "Notes & Projects management",
           "hasSubList": false,
-          "content": "TickTick &amp; Notion.so"
+          "content": "TickTick & Notion App"
         },
         "browsers": {
           "name": "Browsers",
           "hasSubList": false,
           "content": "Firefox (DE for Desktop, Nightly for mobile)"
+        },
+        "utilities": {
+          "name": "Utilities",
+          "hasSubList": false,
+          "content": "KDE Connect, Ranger"
         }
       }
     },
@@ -80,17 +116,17 @@
         "laptop": {
           "name": "Laptop",
           "hasSubList": false,
-          "content": "HP 450 G8 15\""
+          "content": "HP 450 G8 15'"
         },
         "keyboards": {
           "name": "Keyboards",
           "hasSubList": false,
-          "content": "Keychron K6, reds with <a class=\"external-link\" href=\"https://www.reddit.com/r/evangelion/comments/vi5we9\">custom keycaps</a> | K7, browns"
+          "content": "Keychron K6, reds with <a class='external-link' target='_blank' href='https://www.reddit.com/r/evangelion/comments/vi5we9'>custom keycaps</a> | K7, browns"
         },
         "phone": {
           "name": "Phone",
           "hasSubList": false,
-          "content": "<a class=\"external-link\" href=\"https://dbrand.com/shop/special-edition/something\">Something</a> like Pixel 6 Pro"
+          "content": "<a class='external-link' target='_blank' href='https://dbrand.com/shop/special-edition/something'>Something</a> like Pixel 6 Pro"
         },
         "wearables": {
           "name": "Wearables",

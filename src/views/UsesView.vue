@@ -2,9 +2,8 @@
 import WelcomeItem from '../components/WelcomeItem.vue'
 import SectionItem from '../components/SectionItem.vue'
 import ToolingIcon from '../components/icons/IconTooling.vue'
-import {uses} from '../assets/data/user.json'
+import { uses } from '../assets/data/user.json'
 
-const uses_ = uses;
 </script>
 
 <template>
@@ -19,7 +18,7 @@ const uses_ = uses;
 
     <div class="uses">
       <section-item 
-          v-for="(use) in uses_" 
+          v-for="(use) in uses" 
           :key="use.id" 
           :useItem="use"
       >
