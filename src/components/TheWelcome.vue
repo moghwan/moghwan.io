@@ -1,8 +1,15 @@
 <script setup>
+import { computed } from "vue";
 import WelcomeItem from './WelcomeItem.vue'
 import InfoIcon from './icons/IconInfo.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
+import { wowawe } from '../assets/data/user.json'
+
+const who = computed(() => wowawe.who )
+const what = computed(() => wowawe.what )
+const where = computed(() => wowawe.where )
+
 </script>
 
 <template>
@@ -10,29 +17,18 @@ import CommunityIcon from './icons/IconCommunity.vue'
     <template #icon>
       <InfoIcon />
     </template>
-    <template #heading>Who</template>
-
-    <p>Just another PHP dev from Morocco, based in Casablanca.</p>
-    <p><a href="https://blog.moghwan.me/this-is-not-my-first-blog-post" class="external-link" target="_blank" rel="noopener">Read more</a>.</p>
+    <template #heading>{{ who.name }}</template>
+    <p v-html="who.content"></p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>What</template>
-
-    <p>Most projects never see the light, either because I'm perfecting the MVP or just lazy to start one. Here are some:</p>
+    <template #heading>{{ what.name }}</template>
+    <p v-html="what.content"/>
     <ul>
-      <li>
-        <a href="https://bouayadapp-ma.moghwan.me/" class="external-link" target="_blank" rel="noopener">Bouayadapp</a>: daily quotes with salate times.(discontinued).
-      </li>
-      <li>
-        <a href="https://bouayadapi.moghwan.me/" class="external-link" target="_blank" rel="noopener">Bouayad API</a>: Unofficial API for the Bouayadapp (WIP).
-      </li>
-      <li>
-        <a href="https://corona.moghwan.me/" class="external-link" target="_blank" rel="noopener">Covid States</a>: Just another Unofficial Covid-19 Graph stats for Morocco.
-      </li>
+      <li v-for="item in what.list" :key="item.id" v-html="item.content"/>
     </ul>
   </WelcomeItem>
 
@@ -40,10 +36,9 @@ import CommunityIcon from './icons/IconCommunity.vue'
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Where</template>
-
+    <template #heading>{{ where.name }}</template>
     <RouterLink :to="{ name: 'socials' }">
-      Let's connect
+      {{ where.content }}
     </RouterLink>
   </WelcomeItem>
 </template>

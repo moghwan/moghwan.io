@@ -8,7 +8,7 @@
 <script setup>
 import SunIcon from './icons/IconSun.vue'
 import MoonIcon from './icons/IconMoon.vue'
-import { onMounted, reactive, ref, watch, watchEffect, computed } from "vue";
+import { ref, watchEffect } from "vue";
 
     const MODE = {
       DARK: 'dark',
@@ -24,7 +24,7 @@ import { onMounted, reactive, ref, watch, watchEffect, computed } from "vue";
         localStorage.theme = !isDarkNow ? MODE.LIGHT : MODE.DARK;
       }
       
-      if (localStorage.theme == MODE.DARK) {
+      if (localStorage.theme === MODE.DARK) {
         html.classList.add(MODE.DARK);
       } else {
         html.classList.remove(MODE.DARK);
@@ -32,11 +32,11 @@ import { onMounted, reactive, ref, watch, watchEffect, computed } from "vue";
     })
 
     const toggleMode = () => {
-      if(localStorage.theme == MODE.DARK) {
+      if(localStorage.theme === MODE.DARK) {
         document.querySelector('html').classList.remove(MODE.DARK);
         localStorage.theme = isDarkMode.value = MODE.LIGHT;
 
-      }else if(localStorage.theme == MODE.LIGHT) {
+      }else if(localStorage.theme === MODE.LIGHT) {
         document.querySelector('html').classList.add(MODE.DARK);
         localStorage.theme = isDarkMode.value = MODE.DARK;
       }
