@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import {toRefs, defineProps} from 'vue'
+import { defineProps } from 'vue'
 
 const props = defineProps({
     useItem: {
@@ -27,6 +27,4 @@ const props = defineProps({
       required: true
     }
 })
-// no need to sync since data at loaded on page load
-// const { useItem } = toRefs(props)
 </script>

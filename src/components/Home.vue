@@ -6,7 +6,6 @@ import DarkmodeSwitcher from './DarkmodeSwitcher.vue'
   <div class="greetings">
     <h1>
       Hi, <span class="accent">moghwan</span> here
-      <DarkmodeSwitcher/>
     </h1>
   </div>
 </template>
