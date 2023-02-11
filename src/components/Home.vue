@@ -1,11 +1,11 @@
 <script setup>
-import DarkmodeSwitcher from './DarkmodeSwitcher.vue'
+import { developer } from '../assets/data/user.json'
 </script>
 
 <template>
   <div class="greetings">
     <h1>
-      Hi, <span class="accent">moghwan</span> here
+      Hi, <span class="accent">{{ developer.name }}</span> here
     </h1>
   </div>
 </template>
