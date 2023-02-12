@@ -6,7 +6,7 @@
     "who": {
       "name": "Who",
       "hasSubList": false,
-      "content": "Just another PHP dev from Morocco, based in Casablanca. <br> <a href='https://blog.moghwan.me/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
+      "content": "A PHP software engineer from Morocco. <a href='https://blog.moghwan.me/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
     },
     "what": {
       "name": "What",
@@ -15,11 +15,11 @@
       "list": [
         {
           "hasSubList": false,
-          "content": "<a href='https://v1.bouayad.app/' class='external-link' target='_blank' rel='noopener'>Bouayadapp</a>: daily quotes with salate times (discontinued)."
+          "content": "<a href='https://web.bouayad.app/' class='external-link' target='_blank' rel='noopener'>bouayad.app</a>: daily quotes with salate times (<a href='https://v1.bouayad.app' class='external-link' target='_blank'>Android</a> - Discontinued)."
         },
         {
           "hasSubList": false,
-          "content": "<a href='https://bouayadapi.moghwan.me/' class='external-link' target='_blank' rel='noopener'>Bouayad API</a>: Unofficial API for the Bouayadapp (WIP)."
+          "content": "<a href='https://rapidapi.com/chaouimar2/api/bouayadapi' class='external-link' target='_blank' rel='noopener'>Bouayad API</a>: Unofficial API, made from scratch."
         },
         {
           "hasSubList": false,
