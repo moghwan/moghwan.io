@@ -89,7 +89,7 @@
         "deployment": {
           "name": "Deployment",
           "hasSubList": false,
-          "content": "Vercel / Cloudways / OVH (VPS) / Fastlane"
+          "content": "Vercel / DigitalOcean / OVH (VPS) / Fastlane"
         },
         "terminal": {
           "name": "Terminal",
