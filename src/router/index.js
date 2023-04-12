@@ -69,9 +69,14 @@ const router = createRouter({
       redirect: to => { window.location.href = "https://unsplash.com/@moghwan" },
     },
     {
-      path: '/ig',
-      name: 'instagram',
-      redirect: to => { window.location.href = "https://instagram.com/_moghwan" },
+      path: '/an',
+      name: 'anilist',
+      redirect: to => { window.location.href = "https://anilist.co/user/moghwan" },
+    },
+    {
+      path: '/dotfiles',
+      name: 'dotfiles',
+      redirect: to => { window.location.href = "https://github.com/moghwan/dotfiles" },
     },
     {
       path: '/b',
