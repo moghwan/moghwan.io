@@ -9,9 +9,9 @@ const socials = [
   'Stackoverflow',
   'Spotify',
   'TvTime',
+  'Anilist',
   'DeviantArt',
   'Unsplash',
-  'Instagram',
 ];
 
 </script>
