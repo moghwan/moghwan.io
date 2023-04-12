@@ -15,7 +15,7 @@
       "list": [
         {
           "hasSubList": false,
-          "content": "<a href='https://web.bouayad.app/' class='external-link' target='_blank' rel='noopener'>bouayad.app</a>: daily quotes with salate times (<a href='https://v1.bouayad.app' class='external-link' target='_blank'>Android</a> - Discontinued)."
+          "content": "<a href='https://bouayad.app/' class='external-link' target='_blank' rel='noopener'>bouayad.app</a>: daily quotes with salate times (<a href='https://v1.bouayad.app' class='external-link' target='_blank'>Android</a> - Discontinued)."
         },
         {
           "hasSubList": false,
@@ -49,11 +49,11 @@
             "list": [
               {
                 "hasSubList": false,
-                "content": "PhpStorm & Laradock (LAMP)"
+                "content": "PhpStorm & Laradock (LEMP)"
               },
               {
                 "hasSubList": false,
-                "content": "WebStorm & nvm"
+                "content": "WebStorm, Vite & nvm"
               },
               {
                 "hasSubList": false,
@@ -89,7 +89,7 @@
         "deployment": {
           "name": "Deployment",
           "hasSubList": false,
-          "content": "Vercel / Cloudways / OVH (VPS) / Fastlane"
+          "content": "Vercel / DigitalOcean / OVH (VPS) / Fastlane"
         },
         "terminal": {
           "name": "Terminal",
