@@ -57,7 +57,7 @@
               },
               {
                 "hasSubList": false,
-                "content": "Vim to edit config files"
+                "content": "neovim to edit config files"
               }
             ]
           }
