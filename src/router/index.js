@@ -64,9 +64,9 @@ const router = createRouter({
       redirect: to => { window.location.href = "https://c-mar1.deviantart.com" },
     },
     {
-      path: '/us',
-      name: 'unsplash',
-      redirect: to => { window.location.href = "https://unsplash.com/@moghwan" },
+      path: '/fl',
+      name: 'flickr',
+      redirect: to => { window.location.href = "https://www.flickr.com/people/198177608@N06/" },
     },
     {
       path: '/an',

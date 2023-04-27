@@ -11,7 +11,7 @@ const socials = [
   'TvTime',
   'Anilist',
   'DeviantArt',
-  'Unsplash',
+  'Flickr',
 ];
 
 </script>
