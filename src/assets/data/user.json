@@ -15,6 +15,10 @@
       "list": [
         {
           "hasSubList": false,
+          "content": "<a href='https://github.com/moghwan/idea-early-riser-theme' class='external-link' target='_blank' rel='noopener'>Early Riser Suntax</a>: A light color scheme for JetBrains' IDEs."
+        },
+        {
+          "hasSubList": false,
           "content": "<a href='https://bouayad.app/' class='external-link' target='_blank' rel='noopener'>bouayad.app</a>: daily quotes with salate times (<a href='https://v1.bouayad.app' class='external-link' target='_blank'>Android</a> - Discontinued)."
         },
         {
@@ -134,7 +138,7 @@
         "wearables": {
           "name": "Wearables",
           "hasSubList": false,
-          "content": "Galaxy Watch 5 44mm | Wired Type-C headphones"
+          "content": "GW5 44mm | Wired Type-C headphones"
         }
       }
     }
