@@ -1,3 +1,3 @@
-# v3.moghwan.me [WIP]
+# moghwan.io
 
-Just another personal website
+personal website

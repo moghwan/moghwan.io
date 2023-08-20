@@ -6,7 +6,7 @@
     "who": {
       "name": "Who",
       "hasSubList": false,
-      "content": "A PHP software engineer from Morocco. <a href='https://blog.moghwan.me/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
+      "content": "A PHP software engineer from Morocco. <a href='https://blog.moghwan.io/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
     },
     "what": {
       "name": "What",
@@ -27,7 +27,7 @@
         },
         {
           "hasSubList": false,
-          "content": "<a href='https://corona.moghwan.me/' class='external-link' target='_blank' rel='noopener'>Covid States</a>: Just another Unofficial Covid-19 Graph stats for Morocco."
+          "content": "<a href='https://corona.moghwan.io/' class='external-link' target='_blank' rel='noopener'>Covid States</a>: Just another Unofficial Covid-19 Graph stats for Morocco."
         }
       ]
     },
@@ -44,7 +44,7 @@
         "os": {
           "name": "OS",
           "hasSubList": false,
-          "content": "Manjaro i3 community with i3status-rust  [<a class='external-link' target='_blank' href='https://moghwan.me/dotfiles'>dotfiles</a>]"
+          "content": "Manjaro i3 community with i3status-rust  [<a class='external-link' target='_blank' href='https://moghwan.io/dotfiles'>dotfiles</a>]"
         },
         "devTools": {
           "name": "Dev Tools",

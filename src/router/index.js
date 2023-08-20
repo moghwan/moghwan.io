@@ -81,7 +81,7 @@ const router = createRouter({
     {
       path: '/b',
       name: 'blog',
-      redirect: to => { window.location.href = "https://blog.moghwan.me" },
+      redirect: to => { window.location.href = "https://blog.moghwan.io" },
     },
     {
       path: '/:pathMatch(.*)*',
