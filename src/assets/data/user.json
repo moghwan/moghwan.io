@@ -6,7 +6,7 @@
     "who": {
       "name": "Who",
       "hasSubList": false,
-      "content": "A PHP software engineer from Morocco. <a href='https://blog.moghwan.io/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
+      "content": "A PHP software engineer from Morocco. <a href='https://blog.moghwan.io/articles/this-is-not-my-first-blog-post' class='external-link' target='_blank' rel='noopener'>Read more</a>."
     },
     "what": {
       "name": "What",
