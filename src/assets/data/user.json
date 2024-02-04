@@ -11,7 +11,7 @@
     "what": {
       "name": "What",
       "hasSubList": true,
-      "content": "Most projects never see the light, either because I'm perfecting the MVP or just lazy to start one. Here are some:",
+      "content": "Most projects never see the light. Here are some:",
       "list": [
         {
           "hasSubList": false,
@@ -113,7 +113,7 @@
         "utilities": {
           "name": "Utilities",
           "hasSubList": false,
-          "content": "KDE Connect, Ranger"
+          "content": "KDE Connect, Ranger & Ásbrú CM"
         }
       }
     },
@@ -129,6 +129,11 @@
           "name": "Keyboards",
           "hasSubList": false,
           "content": "Keychron K6, reds with <a class='external-link' target='_blank' href='https://www.reddit.com/r/evangelion/comments/vi5we9'>custom keycaps</a> | K7, browns"
+        },
+        "mouse": {
+          "name": "Mouse",
+          "hasSubList": false,
+          "content": "Logitech MX Master 3S, configured with <a class='external-link' target='_blank' href='https://github.com/moghwan/dotfiles/blob/master/etc/logid.cfg'>logiops</a>"
         },
         "phone": {
           "name": "Phone",
