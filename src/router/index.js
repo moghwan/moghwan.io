@@ -84,6 +84,11 @@ const router = createRouter({
       redirect: to => { window.location.href = "https://blog.moghwan.io" },
     },
     {
+      path: '/m',
+      name: 'medium',
+      redirect: to => { window.location.href = "https://medium.com/@moghwan" },
+    },
+    {
       path: '/:pathMatch(.*)*',
       component: NotFoundView
     },

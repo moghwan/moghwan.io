@@ -5,6 +5,7 @@ import CommunityIcon from '../components/icons/IconCommunity.vue'
 const socials = [
   'GitHub',
   'Twitter',
+  'Medium',
   'LinkedIn',
   'Stackoverflow',
   'Spotify',
