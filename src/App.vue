@@ -10,6 +10,7 @@ import Home from './components/Home.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink :to="{ name: 'uses' }">Uses</RouterLink>
+        <RouterLink :to="{ name: 'oss' }">Oss</RouterLink>
         <RouterLink target='_blank' :to="{ name: 'blog' }" class="external-link">Blog</RouterLink>
         <RouterLink target='_blank' :to="{ name: 'cv' }" class="external-link">CV</RouterLink>
       </nav>

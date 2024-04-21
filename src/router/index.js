@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import UsesView from '../views/UsesView.vue'
 import SocialsView from '../views/SocialsView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
+import OssView from "@/views/OssView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,11 @@ const router = createRouter({
       path: '/u',
       name: 'uses',
       component: UsesView
+    },
+    {
+      path: '/oss',
+      name: 'oss',
+      component: OssView
     },
     // {
     //   path: '/bu',
