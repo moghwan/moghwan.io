@@ -37,6 +37,33 @@
       "content": "Let us connect"
     }
   },
+  "oss": {
+    "name": "Open Source Software",
+    "hasSubList": true,
+    "content": "As someone who can't live with defaults, I usually play with configs:",
+    "list": [
+      {
+        "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/dotfiles' class='external-link' target='_blank' rel='noopener'>i3(wm).files</a>: Personal dotfiles with i3status-rust."
+      },
+      {
+        "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/hackintosh-sierra-HP-840' class='external-link' target='_blank' rel='noopener'>Hackintosh Sierra</a>: A Hackintosh tl;dr guide for installing mac os sierra on HP Elitebook 840 G1."
+      },
+      {
+        "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/laracel-app' class='external-link' target='_blank' rel='noopener'>Laracel App</a>: Laravel 11 deployement guide for Vercel with github action & php 8.2."
+      },
+      {
+        "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/arc-flatabulous-orange-theme' class='external-link' target='_blank' rel='noopener'>Arc Flatabulous Orange</a>: A fork of the Arc Flatabulous theme for Unity/Ubuntu 16.04, with orange accent color."
+      },
+      {
+        "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/docker-prestashop-boilerplate' class='external-link' target='_blank' rel='noopener'>Prestashop boilerplate</a>: Bootstraping a PrestaShop project with docker."
+      }
+    ]
+  },
   "uses": {
     "osoftware": {
       "name": "OS/oftware",
