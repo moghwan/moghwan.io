@@ -20,6 +20,7 @@ import { oss } from '../assets/data/user.json'
           :key="oss.id"
           :useItem="oss"
       >
+        {{ oss.content }}
       </section-item>
     </div>
   </WelcomeItem>
