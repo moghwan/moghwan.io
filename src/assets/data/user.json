@@ -23,10 +23,6 @@
         },
         {
           "hasSubList": false,
-          "content": "<a href='https://rapidapi.com/chaouimar2/api/bouayadapi' class='external-link' target='_blank' rel='noopener'>Bouayad API</a>: Unofficial API, made from scratch."
-        },
-        {
-          "hasSubList": false,
           "content": "<a href='https://corona.moghwan.io/' class='external-link' target='_blank' rel='noopener'>Covid States</a>: Just another Unofficial Covid-19 Graph stats for Morocco."
         }
       ]
