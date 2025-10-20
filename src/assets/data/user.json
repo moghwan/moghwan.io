@@ -52,6 +52,10 @@
       },
       {
         "hasSubList": false,
+        "content": "<a href='https://github.com/moghwan/heartrate-zones-calculator' class='external-link' target='_blank' rel='noopener'>Heart Rate Zones Calculator</a>: A vibe coded app for calculating personnalized heart rate zones for runners, using HRR, LTHR & MaxHR methods."
+      },
+      {
+        "hasSubList": false,
         "content": "<a href='https://github.com/moghwan/arc-flatabulous-orange-theme' class='external-link' target='_blank' rel='noopener'>Arc Flatabulous Orange</a>: A fork of the Arc Flatabulous theme for Unity/Ubuntu 16.04, with orange accent color."
       },
       {
