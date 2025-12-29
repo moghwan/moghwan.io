@@ -69,9 +69,14 @@
       "name": "OS/oftware",
       "list": {
         "os": {
-          "name": "OS",
+          "name": "OS (personal)",
           "hasSubList": false,
           "content": "Manjaro i3 community with i3status-rust  [<a class='external-link' target='_blank' href='https://moghwan.io/dotfiles'>dotfiles</a>]"
+        },
+        {
+          "name": "OS (work)",
+          "hasSubList": false,
+          "content": "Kubuntu with Sway & Waybar"
         },
         "devTools": {
           "name": "Dev Tools",
@@ -80,15 +85,11 @@
             "list": [
               {
                 "hasSubList": false,
-                "content": "PhpStorm & Laradock (LEMP)"
+                "content": "PhpStorm w/ IdeaVim, & Claude Code"
               },
               {
                 "hasSubList": false,
                 "content": "WebStorm, Vite & nvm"
-              },
-              {
-                "hasSubList": false,
-                "content": "Neovim with NvChad"
               }
             ]
           }
@@ -120,22 +121,22 @@
         "deployment": {
           "name": "Deployment",
           "hasSubList": false,
-          "content": "Vercel / DigitalOcean / OVH (VPS) / Fastlane"
+          "content": "Cloudflare Pages / DigitalOcean / Fastlane"
         },
         "terminal": {
           "name": "Terminal",
           "hasSubList": false,
-          "content": "Konsole/iTerm & OhMyZsh [robbyrussell theme]"
+          "content": "Alacritty & OhMyZsh [robbyrussell theme]"
         },
         "notesTaking": {
           "name": "Notes & Projects management",
           "hasSubList": false,
-          "content": "TickTick & Notion App"
+          "content": "Capacities & Notion App"
         },
         "browsers": {
           "name": "Browsers",
           "hasSubList": false,
-          "content": "Firefox (DE for Desktop, Nightly for mobile)"
+          "content": "Zen (Desktop), FF Nightly (mobile)"
         },
         "utilities": {
           "name": "Utilities",
@@ -148,9 +149,14 @@
       "name": "Hardware",
       "list": {
         "laptop": {
-          "name": "Laptop",
+          "name": "Laptop (personal)",
           "hasSubList": false,
-          "content": "HP 450 G8 15'"
+          "content": "HP 450 G8"
+        },
+        {
+          "name": "Laptop (work)",
+          "hasSubList": false,
+          "content": "XPS 15 9530"
         },
         "keyboards": {
           "name": "Keyboards",
